@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF1F1"
+    android:background="?attr/android:windowBackground"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -18,13 +18,16 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav_bar"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/rounded_bottom_nav"
-        app:itemIconSize="35dp"
+        android:layout_height="75dp"
+        android:background="@color/pink3"
+        app:itemIconSize="30dp"
         app:itemIconTint="@color/black"
         app:itemTextColor="@color/black"
+        app:itemRippleColor="@color/pink2"
+        android:elevation="8dp"
         app:labelVisibilityMode="unlabeled"
         android:paddingTop="5dp"
+        app:activeIndicatorLabelPadding="20dp"
         app:menu="@menu/menu_items" />
 
 </LinearLayout>
