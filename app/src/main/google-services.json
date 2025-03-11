@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538782771913",
+    "project_id": "playlist-540cb",
+    "storage_bucket": "playlist-540cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538782771913:android:089216ae5e72a89d967b18",
+        "android_client_info": {
+          "package_name": "com.practice.playlist_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1olgLUTznTiBVLoRNn4tnRb20kLph-Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
