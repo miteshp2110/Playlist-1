@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "538782771913",
+    "project_id": "playlist-540cb",
+    "storage_bucket": "playlist-540cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538782771913:android:089216ae5e72a89d967b18",
+        "android_client_info": {
+          "package_name": "com.practice.playlist_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538782771913-om3e0q53gpj1hlap5pse024bq0sr4nn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice.playlist_1",
+            "certificate_hash": "25b2c9e10838663e700c74ab43b4308bb0545855"
+          }
+        },
+        {
+          "client_id": "538782771913-6jhesr0vcs4acjj4lmogk1jih8ugp09h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1olgLUTznTiBVLoRNn4tnRb20kLph-Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538782771913-6jhesr0vcs4acjj4lmogk1jih8ugp09h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
