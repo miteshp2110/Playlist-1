@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "538782771913-pieej2r292unms0h3kn17k4bjrsec68o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice.playlist_1",
+            "certificate_hash": "952d362b77bb3b7182cd980bcc3cca7cb05a6268"
+          }
+        },
+        {
           "client_id": "538782771913-6jhesr0vcs4acjj4lmogk1jih8ugp09h.apps.googleusercontent.com",
           "client_type": 3
         }
