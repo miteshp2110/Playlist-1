@@ -528,7 +528,7 @@
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/mee"
+                                android:src="@drawable/steal_the_show"
                                 android:scaleType="centerCrop"
                                 android:layout_marginRight="8dp"/>
 
@@ -540,14 +540,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="RUSSIAN BANDANA"
+                                    android:text="STEAL THE SHOW"
                                     android:textSize="10sp"
                                     android:textStyle="bold"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DHANDA NYOLIWALA"
+                                    android:text="LAUV"
                                     android:textSize="8sp"/>
                             </LinearLayout>
                         </LinearLayout>
@@ -574,7 +574,7 @@
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/mee"
+                                android:src="@drawable/ved_lavlay"
                                 android:scaleType="centerCrop"
                                 android:layout_marginRight="8dp"/>
 
@@ -586,14 +586,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="RUSSIAN BANDANA"
+                                    android:text="VED LAVLAY"
                                     android:textSize="10sp"
                                     android:textStyle="bold"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DHANDA NYOLIWALA"
+                                    android:text="AJAY-ATUL"
                                     android:textSize="8sp"/>
                             </LinearLayout>
                         </LinearLayout>
@@ -620,7 +620,7 @@
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/mee"
+                                android:src="@drawable/sajni"
                                 android:scaleType="centerCrop"
                                 android:layout_marginRight="8dp"/>
 
@@ -632,14 +632,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="RUSSIAN BANDANA"
+                                    android:text="SAJNI"
                                     android:textSize="10sp"
                                     android:textStyle="bold"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DHANDA NYOLIWALA"
+                                    android:text="ARJIT SINGH"
                                     android:textSize="8sp"/>
                             </LinearLayout>
                         </LinearLayout>
@@ -666,7 +666,7 @@
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/mee"
+                                android:src="@drawable/jaana_samjho_na"
                                 android:scaleType="centerCrop"
                                 android:layout_marginRight="8dp"/>
 
@@ -678,14 +678,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="RUSSIAN BANDANA"
+                                    android:text="JAANA SAMJHO NA"
                                     android:textSize="10sp"
                                     android:textStyle="bold"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DHANDA NYOLIWALA"
+                                    android:text="ADITYA RIKHARI, TULSI KUMAR"
                                     android:textSize="8sp"/>
                             </LinearLayout>
                         </LinearLayout>
@@ -694,65 +694,4 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
-    <!-- Currently Playing Bar -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@android:color/transparent">
-
-        <SeekBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:progress="80"
-            android:progressTint="#000000"
-            android:thumbTint="#000000"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingHorizontal="8dp"
-            android:paddingBottom="8dp"
-            android:gravity="center_vertical">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/mee"
-                android:scaleType="centerCrop"/>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_marginStart="12dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ADMIRIN' YOU (FT. PRESTON PABLO)"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/bebas_neue"
-                    android:textColor="#000000"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="KARAN AUJLA"
-                    android:textSize="12sp"
-                    android:fontFamily="@font/bebas_neue"
-                    android:textColor="#666666"/>
-            </LinearLayout>
-
-            <ImageButton
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/icon_play"
-                android:background="?attr/selectableItemBackgroundBorderless"/>
-        </LinearLayout>
-    </LinearLayout>
 </LinearLayout>
